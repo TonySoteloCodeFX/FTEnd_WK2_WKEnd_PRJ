@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="/images/logo_PumaCodeFx.png" alt="pixelated Puma logo" width="150">
+            <nav>
+                <a href="/main.html">Home</a>
+                <a href="/pages/about.html">About Me</a>
+                <a href="/pages/resume.html">Resume</a>
+                <a href="/pages/contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <form action="">
+            <section>
+                <h3>Contact Me</h3>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone" placeholder="xxx-xxx-xxxx" required>
+                <br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="jdoe@gmail.com" required>
+
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" placeholder="City/State">
+
+                <div>Preferred method of contact</div>
+
+                <input type="radio" id="preferred_email" name="preferred_contact" value="email">
+                <label for="preferred_email">Email</label>
+
+                <input type="radio" id="preferred_phone" name="preferred_contact" value="phone">
+                <label for="preferred_phone">Phone</label>
+                <br>
+
+                <label for="comments">Comments</label>
+                <br>
+                <textarea id="comments" name="comments" placeholder="Comments or Concerns" cols="50" rows="10"></textarea>
+            </section>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <div>&copy; 2024 PumaCodeFX. All rights reserved.</div>
+        <nav>
+            <a href="/terms">Terms of Service</a>
+            <a href="/privacy">Privacy Policy</a>
+        </nav>
+
+    </footer>
+</body>
+</html>
