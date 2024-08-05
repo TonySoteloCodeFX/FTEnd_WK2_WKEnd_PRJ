@@ -22,10 +22,6 @@ nav {
     color: #2F4858;
 }
 
-i {
-    color: #2F4858;
-}
-
 main {
     position: absolute;
     top: 0px;
@@ -39,8 +35,8 @@ main {
 .main_intro {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 70vh;
+    width: 60%;
+    height: 90vh;
     text-align: center;
 }
 
@@ -78,8 +74,9 @@ main {
     padding: 3% 15%;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 30px;
+    font-weight: 500;
 }
 
 .more_about_me {
@@ -87,12 +84,12 @@ main {
     background-color: #FBFFFE;
     border-radius: 20px;
     border: 2px solid #2F4858;
-    width: 125px;
-    height: 30px;
+    width: 175px;
+    height: 40px;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
-    font-size: 14px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 

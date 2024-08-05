@@ -1,0 +1,81 @@
+body {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: #2F4858;
+    z-index: 1;
+}
+
+.main_bg {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.left_side {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.profile_pic {
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://cdn.discordapp.com/attachments/1161113113182081037/1269875177479475232/tony.vfx_An_IT_tech_professional_with_slick_back_hair_and_light_87e17259-cbf6-42c4-8693-955f2a6d69c4_dax_ins.jpg?ex=66b1a6eb&is=66b0556b&hm=ad2791ee7b804fa852be06dc704b606aab1b3bf49a8308874bffe164803dc552&);
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 40px;
+    height: 50vh;
+    font-family: 'Roboto';
+    font-weight: 900;
+    text-transform: uppercase;
+    background-color: #FBFFFE;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #2F4858;
+}
+
+.right_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+
+.about {
+    font-size: 80px;
+    font-family: 'Roboto';
+    font-weight: 800;
+    color: #FBFFFE;
+    border-radius: 20px;
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    color: #FBFFFE;
+}
+
+.intro {
+    color: #FBFFFE;
+    text-align: justify;
+    text-indent: 50px;
+    width: 70%;
+    font-size: 25px;
+    font-weight: 450;
+    font-family: 'Roboto';
+    line-height: 45px;
+}
