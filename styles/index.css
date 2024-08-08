@@ -96,6 +96,6 @@ main {
 .home_pic {
     width: 50%;
     height: 100vh;
-    background-image: url(https://cdn.discordapp.com/attachments/1161113113182081037/1269875177479475232/tony.vfx_An_IT_tech_professional_with_slick_back_hair_and_light_87e17259-cbf6-42c4-8693-955f2a6d69c4_dax_ins.jpg?ex=66b1a6eb&is=66b0556b&hm=ad2791ee7b804fa852be06dc704b606aab1b3bf49a8308874bffe164803dc552&);
+    background-image: url(/images/profile_pic.jpg);
     background-size: cover;
 }

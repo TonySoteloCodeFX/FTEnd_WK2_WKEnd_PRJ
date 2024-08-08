@@ -51,12 +51,11 @@ body {
     width: 80%;
 }
 
-.about {
+.contact {
     font-size: 80px;
     font-family: 'Roboto';
     font-weight: 800;
     color: #FBFFFE;
-    border-radius: 20px;
     width: 50%;
     text-align: center;
     text-transform: uppercase;
@@ -69,15 +68,19 @@ body {
     color: #FBFFFE;
 }
 
-.intro {
+.form_container {
     color: #FBFFFE;
-    text-align: justify;
-    text-indent: 50px;
+    display: flex;
+    justify-content: center;
     width: 70%;
     font-size: 25px;
     font-weight: 450;
     font-family: 'Roboto';
     line-height: 45px;
+}
+
+input {
+    margin: 25px 25px 0px 0px;
 }
 
 .socials {

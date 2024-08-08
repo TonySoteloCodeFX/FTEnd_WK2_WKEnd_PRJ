@@ -51,12 +51,11 @@ body {
     width: 80%;
 }
 
-.about {
+.resume {
     font-size: 80px;
     font-family: 'Roboto';
     font-weight: 800;
     color: #FBFFFE;
-    border-radius: 20px;
     width: 50%;
     text-align: center;
     text-transform: uppercase;
@@ -69,15 +68,37 @@ body {
     color: #FBFFFE;
 }
 
-.intro {
+.resume_container {
     color: #FBFFFE;
-    text-align: justify;
-    text-indent: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 70%;
-    font-size: 25px;
-    font-weight: 450;
+    height: 100vh;
+    font-size: 12px;
+    font-weight: 300;
     font-family: 'Roboto';
-    line-height: 45px;
+    line-height: 20px;
+}
+
+.pro_summary {
+    text-align: justify;
+}
+
+.skills_experience {
+    display: flex;
+}
+
+.experience, .education {
+    margin-left: 50px;
+}
+
+.education {
+    text-wrap: pretty;
+}
+
+h4, ul {
+    margin: 0px;
 }
 
 .socials {

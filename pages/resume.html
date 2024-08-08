@@ -3,124 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+PE:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/resume.css">
     <title>Resume</title>
 </head>
-<body>
-    <header>
-        <div>
-            <img src="/images/logo_PumaCodeFx.png" alt="pixelated Puma logo" width="150">
-            <nav>
-                <a href="/index.html">Home</a>
-                <a href="/pages/about.html">About Me</a>
-                <a href="/pages/resume.html">Resume</a>
-                <a href="/pages/contact.html">Contact</a>
+
+ <body>
+    <section class="main_bg">
+        <div class="left_side">
+            <div class="profile_pic"></div>
+            <nav class="nav">
+                <a href="/index.html" class="nav_link">Home</a>
+                <a href="/pages/about.html" class="nav_link">About</a>
+                <a href="/pages/resume.html" class="nav_link">Resume</a>
+                <a href="/pages/contact.html" class="nav_link">Contact</a>
             </nav>
         </div>
-    </header>
-    <hr>
-    <main>
-        <section>
-            <div>
-                <img src="/images/logo_PumaCodeFx.png" alt="profile picture" width="200">
+        
+        <div class="right_side">
+            <div class="resume">Resume</div>
+            <div class="title">3D Generalist / Motion Graphics</div>
+            <div class="resume_container">
+                <section class="pro_summary">
+                    <h4>Professional Summary</h4>
+                    <p>
+                        Experienced Motion Graphics and 3D Generalist
+                        with expertise in Maya, Nuke, and After Effects. 
+                        Adept at producing high-quality, production-ready 
+                        assets for major clients like Netflix, Amazon, 
+                        and Warner Brothers. Skilled in adapting to diverse 
+                        environments and creative workflows, ensuring 
+                        precise detail and optimal viewing experiences.
+                        Proven ability to create graphics, track, model,
+                        and composite CG elements for commercial and broadcast TV.
+                    </p>
+                    <hr>
+                </section>
+
+                <section class="skills_experience">
+                    <section class="skills">
+                        <h4>Skills</h4>
+                        <ul>
+                            <li>After Effects</li>
+                            <li>Photoshop</li>
+                            <li>Premiere Pro</li>
+                            <li>Nuke</li>
+                            <li>Syntheyes</li>
+                            <li>Houdini</li>
+                            <li>Maya</li>
+                            <li>Substance Painter</li>
+                            <li>ZBrush</li>
+                            <li>Unity</li>
+                            <li>Unreal</li>
+                            <li>Davinci Resolve</li>
+                        </ul>
+                    </section>
+
+                    <section class="experience">
+                        <h4>Experience</h4>
+                        <p>
+                            <div><b>Paleovalley</b></div>
+                            <div>Motion Graphics / Ad Creator</div>
+                            <ul>
+                                <li>Create engaging social media content for diverse products</li>
+                                <li>Analyze trends across all platforms to optimize CPA.</li>
+                                <li>Develop targeted social media ad campaigns to drive engagement.</li>
+                            </ul>
+            
+                            <div><b>Los Angeles Distribution & Broadcasting</b></div>
+                            <div>Motion Graphics / 3D Generalist</div>
+                            <ul>
+                                <li>Create various graphics for multiple vendors according to spec.</li>
+                                <li>Track, model, and composite CG elements to commercial/broadcast TV.</li>
+                                <li>Communicate with Art Directors/Talent to generate desired brand look.</li>
+                            </ul>
+                        </p>
+                    </section>
+
+                    <section class="education">
+                        <h4>Education</h4>
+                        <div><b>The Los Angeles Film School</b></div>
+                        <p>
+                            B.S. in Animation<br>
+                            with a Concentration in Visual Effects
+                        </p>
+            
+                    </section>
+                </section>
             </div>
-            <h1>Tony Sotelo</h1>
-            <h2>Motion Graphics / 3D Generalist</h2>
-        </section>
-        <section>
-            <h3>Professional Summary</h3>
-            <p>
-                Experienced Motion Graphics and 3D Generalist<br> 
-                with expertise in Maya, Nuke, and After Effects.<br> 
-                Adept at producing high-quality, production-ready<br> 
-                assets for major clients like Netflix, Amazon,<br> 
-                and Warner Brothers. Skilled in adapting to diverse<br> 
-                environments and creative workflows, ensuring<br> 
-                precise detail and optimal viewing experiences.<br> 
-                Proven ability to create graphics, track, model,<br> 
-                and composite CG elements for commercial and broadcast TV.
-            </p>
-        </section>
-        <section>
-            <h3>Skills</h3>
-            <ul>
-                <li>After Effects</li>
-                <li>Photoshop</li>
-                <li>Premiere Pro</li>
-                <li>Nuke</li>
-                <li>Syntheyes</li>
-                <li>Houdini</li>
-                <li>Maya</li>
-                <li>Substance Painter</li>
-                <li>ZBrush</li>
-                <li>Unity</li>
-                <li>Unreal</li>
-                <li>Davinci Resolve</li>
-            </ul>
-        </section>
-        <section>
-            <h3>Education</h3>
-            <h4>The Los Angeles Film School</h4>
-            <p>
-                Bachelor of Science in Animation<br>
-                with a Concentration in Visual Effects
-            </p>
-
-        </section>
-
-
-        <section>
-            <h3>Experience</h3>
-            <p>
-                <h4>Motion Graphics / Ad Creator</h4>
-                <h5>Paleovalley</h5>
-                <ul>
-                    <li>Create engaging social media content for diverse products</li>
-                    <li>Analyze trends across all platforms to optimize CPA.</li>
-                    <li>Develop targeted social media ad campaigns to drive engagement.</li>
-                </ul>
-
-                <h4>Motion Graphics / 3D Generalist</h4>
-                <h5>Los Angeles Distribution & Broadcasting</h5>
-                <ul>
-                    <li>Create various graphics for multiple vendors according to spec.</li>
-                    <li>Track, model, and composite CG elements to commercial/broadcast TV.</li>
-                    <li>Communicate with Art Directors/Talent to generate desired brand look.</li>
-                </ul>
-
-                <h4>VFX Coordinator / 3D Generalist</h4>
-                <h5>Freelance</h5>
-                <ul>
-                    <li>Coordinated with the Director and DP for the best possible outcome.</li>
-                    <li>Pre-production prep for green screen.</li>
-                    <li>Tracked shots and generated 3D assets using Syntheyes and Maya</li>
-                </ul>
-
-                <h4>Video Editor</h4>
-                <h5>Oakwood School</h5>
-                <ul>
-                    <li>Conversed with the Director of Alumni Relations for proper delivery.</li>
-                    <li>Delivered quality video edits tailored for social media platforms.</li>
-                    <li>Generated motion graphics according to art style specifications.</li>
-                </ul>
-
-                <h4>Master Control Operator</h4>
-                <h5>LATV Network</h5>
-                <ul>
-                    <li>Verified accuracy of on-air content with log for FCC regulations.</li>
-                    <li>Troubleshoot software/hardware equipment whenever necessary.</li>
-                    <li>QC/edit assets in accordance with FCC standards using Adobe Premiere.</li>
-                </ul>
-            </p>
-        </section>
-    </main>
-    <hr>
+            <div class="pics">
+            </div>
+        </div>
+    </section>
     <footer>
-        <div>&copy; 2024 PumaCodeFX. All rights reserved.</div>
-        <nav>
-            <a href="/terms">Terms of Service</a>
-            <a href="/privacy">Privacy Policy</a>
-        </nav>
+        <div>
+            <nav class="socials">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <!-- Instagram  -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" id="social_icons" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                      </svg>
+                </a>
 
+                <a href="https://www.facebook.com" target="_blank">
+                    <!-- Facebook -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" id="social_icons" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                      </svg>
+                </a>
+
+                <a href="https://www.tiktok.com" target="_blank">
+                    <!-- Tiktok  -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" id="social_icons" viewBox="0 0 16 16">
+                        <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+                      </svg>
+                </a>
+            </nav>
+        </div>
     </footer>
 </body>
+
 </html>
